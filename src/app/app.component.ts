@@ -6,5 +6,10 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'primerprueba';
+  title = 'ANGULAR';
+  public mostrar_videojuegos : boolean = true;
+
+  ocultarVideojuegos(value){
+    this.mostrar_videojuegos= value;
+  }
 }
